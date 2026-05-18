@@ -1,0 +1,62 @@
+# mcp-lemmy
+
+Lemmy federated link-aggregator public reads (any instance)
+
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 250+ live data sources.
+
+## Tools
+
+| Tool | Description |
+|------|-------------|
+| `posts` | List posts. |
+| `post` | Single post by id. |
+| `comments` | Comments. |
+| `communities` | List communities. |
+| `community` | Community metadata. |
+| `site` | Instance metadata. |
+| `search` | Full search. |
+
+## Quick Start
+
+Add to your MCP client (Claude Desktop, Cursor, Windsurf, etc.):
+
+```json
+{
+  "mcpServers": {
+    "lemmy": {
+      "url": "https://gateway.pipeworx.io/lemmy/mcp"
+    }
+  }
+}
+```
+
+Or connect to the full Pipeworx gateway for access to all 250+ data sources:
+
+```json
+{
+  "mcpServers": {
+    "pipeworx": {
+      "url": "https://gateway.pipeworx.io/mcp"
+    }
+  }
+}
+```
+
+## Using with ask_pipeworx
+
+Instead of calling tools directly, you can ask questions in plain English:
+
+```
+ask_pipeworx({ question: "your question about Lemmy data" })
+```
+
+The gateway picks the right tool and fills the arguments automatically.
+
+## More
+
+- [All tools and guides](https://github.com/pipeworx-io/examples)
+- [pipeworx.io](https://pipeworx.io)
+
+## License
+
+MIT
