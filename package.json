@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-lemmy",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Lemmy MCP — public reads on any Lemmy instance.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-0aa61ff5a199cab41720167c3783cf49ef2f64f93b3c7a410c6bdfa5802246a0",
-    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
+    "sourceHash": "v1-2626f7186ea031387d98054fb76e1eadb7cb54f89c9bd589a8f7f47696d1156c",
+    "sourceCommit": "1064560fd9dcd0d6fc2606298c2ba244b3a1fbeb"
   }
 }
