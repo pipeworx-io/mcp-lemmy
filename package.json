@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-lemmy",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Lemmy MCP — public reads on any Lemmy instance.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "lemmy",
     "gatewaySlug": "lemmy",
-    "sourceHash": "v1-e3a93b7dd8d2e391fcb1904e77a6304091f588a1aba61c5eb8187c7ef83d466c",
-    "sourceCommit": "5c89d6abb778d45da5d92002eb251978622bedf9"
+    "sourceHash": "v1-e2d2636c78b7a60d8f11f2277534df80c7256ff132e81d896aa9bce394f96f85",
+    "sourceCommit": "236b0a46d91f343fe094da9f499c378e88f78312"
   }
 }
